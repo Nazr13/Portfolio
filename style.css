@@ -1,0 +1,50 @@
+body {
+    font-family: sans-serif;
+    background-color: rgb(178, 221, 207);
+}
+
+header {
+    background-color: burlywood;
+    padding: 15px;
+}
+
+.link-header {
+    color: white;
+    font-family: Impact;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.link-text {
+    border: 2px solid burlywood;
+    border-radius: 10px;
+    background-color: burlywood;
+    color: white;
+}
+
+.link-nav {
+    color: blueviolet;
+    display: flex;
+    justify-content: center;
+    float: right;
+}
+
+h1 {
+    font-family: impact;
+}
+
+ul {
+    font-family: Arial Black;
+}
+
+.comp {
+    margin: 15px;
+}
+
+footer {
+    background-color: burlywood;
+    padding: 10px;
+}
