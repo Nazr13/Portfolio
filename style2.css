@@ -1,0 +1,89 @@
+body {
+    font-family: sans-serif;
+    background-color: rgb(178, 221, 207);
+}
+
+header {
+    background-color: burlywood;
+    padding: 15px;
+    text-align: left;
+}
+
+.link-header {
+    color: white;
+    font-family: Impact;
+    font-size: 20px;
+}
+
+.link-header:hover {
+    color: black;
+    transition: 1s color linear;
+}
+
+a {
+    text-decoration: none;
+}
+
+.link-text {
+    border: 2px solid burlywood;
+    border-radius: 10px;
+    background-color: burlywood;
+    color: white;
+}
+
+.link-nav {
+    color: blueviolet;
+    display: flex;
+    justify-content: center;
+    float: right;
+}
+
+.text {
+    border: 3px solid white;
+    border-radius: 30px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.text:hover {
+    background-color: white;
+    transition: 0.3s background-color linear;
+}
+
+.sovet {
+    text-align: center;
+}
+
+.nomber {
+    font-family: Impact;
+    background-color: white;
+    display: flex;
+    margin: 5px;
+    padding: 10px;
+    border: 3px solid white;
+    border-radius: 10px;
+    color: blueviolet;
+}
+
+.nomber:hover {
+    color: black;
+}
+
+h1 {
+    font-family: impact;
+    margin-left: 10px;
+}
+
+ul {
+    font-family: Arial Black;
+}
+
+.comp {
+    margin: 15px;
+}
+
+footer {
+    background-color: burlywood;
+    padding: 10px;
+    text-align: left;
+}
