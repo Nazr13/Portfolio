@@ -1,6 +1,6 @@
 body {
     font-family: sans-serif;
-    background-color: rgb(178, 221, 207);
+    background-color: rgb(212, 221, 221);
 }
 
 header {
@@ -14,6 +14,11 @@ header {
     font-size: 20px;
 }
 
+.link-header:hover {
+    color: black;
+    transition: 1s color linear;
+}
+
 a {
     text-decoration: none;
 }
@@ -25,11 +30,32 @@ a {
     color: white;
 }
 
-.link-nav {
+.link-nav1 {
     color: blueviolet;
     display: flex;
     justify-content: center;
     float: right;
+    border-end-end-radius: 10px;
+    padding: 5px;
+    background-image: linear-gradient(180deg, #42F73E 0%, #36B0D7 9.9%, #19A8D6 88.54%, #ECF029 100%);
+}
+
+.link-nav1:hover {
+    background-image: linear-gradient(180deg, #7E57C2 0%, #FFFFFF 9.9%, #FFFFFF 88.54%, #2AB428 100%);
+}
+
+.link-nav2 {
+    color: blueviolet;
+    display: flex;
+    justify-content: center;
+    float: right;
+    border-start-start-radius: 10px;
+    padding: 5px;
+    background-image: linear-gradient(180deg, #42F73E 0%, #36B0D7 9.9%, #19A8D6 88.54%, #ECF029 100%);
+}
+
+.link-nav2:hover {
+    background-image: linear-gradient(180deg, #7E57C2 0%, #FFFFFF 9.9%, #FFFFFF 88.54%, #2AB428 100%);
 }
 
 h1 {
@@ -40,8 +66,31 @@ ul {
     font-family: Arial Black;
 }
 
+.nomber {
+    font-family: Impact;
+    background-color: white;
+    display: flex;
+    margin: 5px;
+    padding: 10px;
+    border: 3px solid white;
+    border-radius: 10px;
+    color: blueviolet;
+}
+
+.nomber:hover {
+    color: black;
+}
+
+.vk {
+    border-radius: 10px;
+}
+
 .comp {
     margin: 15px;
+}
+
+.comp:hover {
+    filter: hue-rotate(90deg);
 }
 
 footer {
